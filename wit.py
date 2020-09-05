@@ -9,6 +9,7 @@ from time import gmtime, strftime
 
 import plotly.graph_objects as go
 
+
 def init():
     current_dir = os.getcwd()
     path_wit = os.path.join(current_dir, '.wit')
